@@ -1,0 +1,24 @@
+</style>
+</head>
+<body>
+
+<h1>Malla Curricular Interactiva - Economía UNAP</h1>
+<div id="creditos-aprobados">Créditos aprobados: 0</div>
+<button id="descargarPDF">Descargar malla como PDF</button>
+<button id="restaurarEstado">Restaurar Estado</button>
+<table id="malla">
+  <thead>
+    <tr>
+      <th>Ciclo</th>
+      <th>Código</th>
+      <th>Asignatura</th>
+      <th>Créditos</th>
+      <th>Prerrequisitos</th>
+      <th>Estado</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script>
